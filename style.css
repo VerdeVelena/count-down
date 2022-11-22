@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;500&display=swap");
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Catamaran", sans-serif;
+}
+
+/* var 1 */
+/* .wrapper {
+	width: 100%;
+	height: 100vh;
+	background-image: url(assets/pascal-bullan-ZS2YDwGsGKA-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+} */
+
+/* var 2 */
+.wrapper {
+	width: 100%;
+	height: 100vh;
+	background-image: url(assets/jaromir-kalina-IbTEg-CSWqo-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.block {
+	width: 115px;
+	background-color: #5b5d5e;
+	border-radius: 5px;
+
+	margin: 42px;
+	color: white;
+	padding: 2px;
+	text-align: center;
+	position: relative;
+	bottom: 18%;
+}
+.num {
+	font-size: 55px;
+}
+.name {
+	font-size: 20px;
+	font-weight: 200;
+	letter-spacing: 1px;
+}
+
+.input-time {
+	width: 100%;
+	position: absolute;
+	bottom: 30vh;
+	left: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.input,
+.btn {
+	height: 2vh;
+	border: white;
+	border-radius: 5px;
+	box-shadow: 0.1rem 0.1rem 0.1rem #dddddd, -0.1rem -0.1rem 0.1rem #eee;
+	margin: 5px;
+	outline: #5e6061;
+}
+.input {
+	width: 25vw;
+}
+.btn {
+	width: 7vw;
+	color: #5e6061;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.btn:hover {
+	background-color: #aaa;
+}
